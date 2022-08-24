@@ -1,0 +1,7 @@
+target:
+ x: 5.0
+ y: 7.0
+ 
+parameters:
+ beta: 1.5
+ phi: 6.0
