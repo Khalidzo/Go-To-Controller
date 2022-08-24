@@ -1,8 +1,0 @@
-prefix=/home/khalid/catkin_ws/install
-
-Name: turtle_controller
-Description: Description of turtle_controller
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
