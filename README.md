@@ -13,7 +13,7 @@ This node is subscribes to the **/turtle1/pose** topic where it'll get the turtl
 ### Mathematical equations used
 
 ### Adjust the linear and angular velocity
-```
+```python
     x_linear_velocity  = beta * (math.sqrt(delta_x**2.0 + delta_y**2.0) )
     z_angular_velocity = phi * (-pose.theta + math.atan2(delta_y,delta_x))
     cmd.linear.x  = x_linear_velocity
