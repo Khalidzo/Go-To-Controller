@@ -1,4 +1,4 @@
-#  🐢Turtle Controller 
+#  🐢 Turtle Controller 
 
 This is my first small project on ROS Noetic. The goal is to get the turtle on turtlesim simulator to a specific (x,y) point by adjusting its linear and angular velocity. The (x,y) point is specified on a *.yaml* file.
 ## Step 1: Create the turtle_controller node
