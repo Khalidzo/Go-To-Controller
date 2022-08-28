@@ -11,7 +11,7 @@ This node is subscribes to the **/turtle1/pose** topic where it'll get the turtl
   rospy.Subscriber("/turtle1/pose", Pose, callback=pose_callback)
 ```
 ### Mathematical equations used
-
+![Capture](https://user-images.githubusercontent.com/78038233/187084280-09166b7a-ca72-4b2d-a185-6f1f573815be.PNG)
 ### Adjust the linear and angular velocity
 ```python
     x_linear_velocity  = beta * (math.sqrt(delta_x**2.0 + delta_y**2.0) )
